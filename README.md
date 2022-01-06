@@ -1,0 +1,2 @@
+# Python-Learning
+由于以后很多地方要用到，所以报名了一个python的课程，然后打算用这个库来记录自己学习python的足迹吧
