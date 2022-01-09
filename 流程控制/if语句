@@ -21,3 +21,4 @@ else
 # else可有可无，且只能有一个
 # else和elif要跟着if用
 # else不能在elif之前
+# if语句只执行一次
