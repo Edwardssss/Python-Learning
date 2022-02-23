@@ -5,6 +5,8 @@ import sqlite3
 
 database = sqlite3.connect('MySQL_1')  # 链接数据库，如果数据库不存在则创建一个
 cursor = database.cursor()  # 创建一个cursor
+# 创建user表
+cursor.execute('create table user (id int(10) primary key ,name varchar(20))')
 # 插入数据
 cursor.execute('insert into user (id ,name) values ("1","Ed")')
 cursor.execute('insert into user (id ,name) values ("2","Dan")')
